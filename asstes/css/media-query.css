@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .xcentar {
+        top: 15px;
+        height: 90vh;
+    }
+  }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .xcentar {
+        top: 180px;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+    .xcentar {
+        top: 100px;
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1366px) {
+    .xcentar {
+        top: 160px;
+        height: 70vh;
+    }
+}

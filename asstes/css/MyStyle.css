@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    background-image: url(../../asstes/img/purpule.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    backdrop-filter: blur(15px);
+}
+
+.find{
+    border: solid 1px white;
+}
+
+.xcentar {
+    position: absolute;
+    top: 30px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: #272E37;
+    color: white;
+    max-width: 390px;
+    padding: 10px;
+    height: 90vh;
+    /* overflow: scroll; */
+
+}
+
+.allDiv {
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.day {
+    background: linear-gradient(297deg, #12b4b9e8, #535ae6af), url(../../asstes/img/bg-1.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.bg-myDarekColor {
+    color: white;
+    background-color: #222831;
+}
+
+.bg-myDarekColor-Tow,
+.xcentar {
+    background-color: #272E37;
+    color: white;
+}
+
+.bg-myDarekColor-Tow:hover,
+.parant>div:first-of-type {
+    background-color: #e9e9e9;
+    color: black;
+}
